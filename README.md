@@ -2,9 +2,7 @@
 
 `csv-inserter` is a lightweight ingestion daemon that automatically inserts CSV files into ClickHouse.
 
-Instead of manually running `clickhouse-client` for every CSV file and opening a new connection each time, `csv-inserter` lets you build a simple, reliable pipeline:
-
-> Drop a CSV file into a directory → it gets inserted into ClickHouse automatically.
+Instead of manually running `clickhouse-client` for every CSV file and opening a new connection each time, `csv-inserter` lets you build a simple, reliable pipeline.
 
 ## Example Workflow
 
